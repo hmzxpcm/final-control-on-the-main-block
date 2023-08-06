@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2023-08-06T14:14:59.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Kp1OBzowQnBtqEKo9Trd" version="21.6.6" type="github">
+  <diagram name="Page-1" id="o2w4KF4pfiHse8Is-Cye">
+    <mxGraphModel dx="951" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-14" value="GetStringByMaxLength" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-20" value="PrintStringArray" style="text;whiteSpace=wrap;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="228.89" y="90" as="sourcePoint" />
+            <mxPoint x="228.89" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-31" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-32" value="End" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="185" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-33" target="BmoPFC_U9LYgwElP9nIV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-33" value="&lt;div style=&quot;border-color: var(--border-color); text-align: justify;&quot;&gt;string[] stringsArray,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: justify;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;int maxLength&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="110" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-34" target="BmoPFC_U9LYgwElP9nIV-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.1111111111111" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-34" value="string [] result =&amp;nbsp;Array&amp;nbsp;Array.FindAll(stringsArray, (str) =&amp;gt; str.Length &amp;lt;= maxLength)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry y="200" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-38" target="BmoPFC_U9LYgwElP9nIV-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-38" value="return result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-40" target="BmoPFC_U9LYgwElP9nIV-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-40" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-44" target="BmoPFC_U9LYgwElP9nIV-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-44" value="&lt;div style=&quot;border-color: var(--border-color); text-align: justify;&quot;&gt;string[] stringsArray&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="589.99" y="110" width="137.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-47" target="BmoPFC_U9LYgwElP9nIV-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-47" value="int i = 0;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-49" target="BmoPFC_U9LYgwElP9nIV-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-65" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BmoPFC_U9LYgwElP9nIV-57">
+          <mxGeometry x="-0.3181" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-70" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-49" target="BmoPFC_U9LYgwElP9nIV-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-49" value="i &amp;lt; stringsArray.Length" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="178.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-53" value="End" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-56" target="BmoPFC_U9LYgwElP9nIV-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-56" value="Console.Write(stringsArray[i]);&lt;br&gt;&lt;br&gt;if (i + 1 != stringsArray.Length){ Console.Write(&quot;, &quot;);&lt;br&gt;}&lt;br&gt;i ++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560.62" y="400" width="198.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.1111111111111" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-71" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-75" target="BmoPFC_U9LYgwElP9nIV-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-75" value="string [] arr = {&#39;123&#39;,&#39;1234&#39;,&#39;234&#39;,&#39;2356,}&lt;br style=&quot;border-color: var(--border-color); font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;maxLength = 3&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="650" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-76" target="BmoPFC_U9LYgwElP9nIV-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-76" value="PrintStringArray(GetStringsByMaxLength(arr, maxLength));" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="750" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BmoPFC_U9LYgwElP9nIV-78" target="BmoPFC_U9LYgwElP9nIV-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-78" value="&quot;123, 234&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="840" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BmoPFC_U9LYgwElP9nIV-80" value="End" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="910" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
