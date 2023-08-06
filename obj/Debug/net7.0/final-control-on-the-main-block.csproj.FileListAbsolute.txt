@@ -1,0 +1,15 @@
+/Users/hmzxp/git-hub/final-control-on-the-main-block/bin/Debug/net7.0/final-control-on-the-main-block
+/Users/hmzxp/git-hub/final-control-on-the-main-block/bin/Debug/net7.0/final-control-on-the-main-block.deps.json
+/Users/hmzxp/git-hub/final-control-on-the-main-block/bin/Debug/net7.0/final-control-on-the-main-block.runtimeconfig.json
+/Users/hmzxp/git-hub/final-control-on-the-main-block/bin/Debug/net7.0/final-control-on-the-main-block.dll
+/Users/hmzxp/git-hub/final-control-on-the-main-block/bin/Debug/net7.0/final-control-on-the-main-block.pdb
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/final-control-on-the-main-block.csproj.AssemblyReference.cache
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/final-control-on-the-main-block.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/final-control-on-the-main-block.AssemblyInfoInputs.cache
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/final-control-on-the-main-block.AssemblyInfo.cs
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/final-control-on-the-main-block.csproj.CoreCompileInputs.cache
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/final-control-on-the-main-block.dll
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/refint/final-control-on-the-main-block.dll
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/final-control-on-the-main-block.pdb
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/final-control-on-the-main-block.genruntimeconfig.cache
+/Users/hmzxp/git-hub/final-control-on-the-main-block/obj/Debug/net7.0/ref/final-control-on-the-main-block.dll
